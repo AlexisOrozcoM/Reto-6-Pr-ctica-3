@@ -1,5 +1,5 @@
 /*
- * Cabecera objeto computador 
+ * Cabecera objeto Fecha 
  */
 
 #ifndef FECHA_H
