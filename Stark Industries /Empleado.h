@@ -13,19 +13,18 @@ class Empleado{
 		double salario;
 		
 	public:
-		Empleado(string nombreIn, int edadIn, double salarioIn);
+		Empleado(string nombre, int edad, double salario);
 		~Empleado();
 		
 		string getNombre();
 		int getEdad();
 		double getSalario();
 		
-		void setNombre(string nombreIn);
-		void setEdad(int edadIn);
-		void setSalario(double salarioIn);
-	
-	
-	
+		/*
+		void setNombre(string nombre);
+		void setEdad(int edad);
+		void setSalario(double salario);
+		*/	
 
 };
 

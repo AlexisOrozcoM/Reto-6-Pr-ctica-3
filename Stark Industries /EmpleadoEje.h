@@ -12,8 +12,8 @@ class EmpleadoEje: public Empleado{
 		int numOficina;
 		
 	public:	
-		EmpleadoEje(string nombreIn, int edadIn, double salarioIn,
-		int numEmpleadosIn, int numOficinaIn);
+		EmpleadoEje(string nombre, int edad, double salario,
+		int numEmpleados, int numOficina);
 		~EmpleadoEje();
 		
 		int getNumEmpleados();

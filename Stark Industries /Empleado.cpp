@@ -1,10 +1,10 @@
 #include "Empleado.h"
 
-Empleado::Empleado(string nombreIn, int edadIn, double salarioIn){
+Empleado::Empleado(string nombre, int edad, double salario){
 	
-	nombre = nombreIn;
-	edad = edadIn;
-	salario = salarioIn;
+	this->nombre = nombre;
+	this->edad = edad;
+	this->salario = salario;
 	
 	}
 	

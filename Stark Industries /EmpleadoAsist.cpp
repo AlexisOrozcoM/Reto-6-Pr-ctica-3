@@ -1,12 +1,12 @@
 #include "EmpleadoAsist.h"
 
-EmpleadoAsist::EmpleadoAsist(string nombreIn, int edadIn, double salarioIn, int numSeccionTrabIn, string asociaSindicalIn):Empleado(string nombreIn, int edadIn, double salarioIn){
+EmpleadoAsist::EmpleadoAsist(string nombre, int edad, double salario, int numSeccionTrab, string asociaSindical):Empleado(nombre, edad, salario){
 	
-	nombre = nombreIn;
-	edad = edadIn;
-	salario = salarioIn;
-	numSeccionTrab = numSeccionTrabIn;
-	asociaSindical = asociaSindicalIn;
+	this->nombre = nombre;
+	this->edad = edad;
+	this->salario = salario;
+	this->numSeccionTrab = numSeccionTrab;
+	this->asociaSindical = asociaSindical;
 	
 	}
 	

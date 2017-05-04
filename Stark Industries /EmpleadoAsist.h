@@ -12,8 +12,8 @@ class EmpleadoAsist: public Empleado{
 		string asociaSindical;
 		
 	public:
-		EmpleadoAsist(string nombreIn, int edadIn, double salarioIn,
-		int numSeccionTrabIn, string asociaSindicalIn);
+		EmpleadoAsist(string nombre, int edad, double salario,
+		int numSeccionTrab, string asociaSindical);
 		~EmpleadoAsist();
 		
 		int getNumSeccionTrab();

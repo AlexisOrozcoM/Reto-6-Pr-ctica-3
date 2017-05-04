@@ -1,13 +1,13 @@
 #include "EmpleadoEje.h"
 
 
-EmpleadoEje::EmpleadoEje(string nombreIn, int edadIn, double salarioIn,int numEmpleadosIn, int numOficinaIn):Empleado(string nombreIn, int edadIn, double salarioIn){
+EmpleadoEje::EmpleadoEje(string nombre, int edad, double salario,int numEmpleados, int numOficina):Empleado(nombre, edad, salario){
 	
-	nombre = nombreIn;
-	edad = edadIn;
-	salario = salarioIn;
-	numEmpleados = numEmpleadosIn;
-	numOficina = numOficinaIn;
+	this->nombre = nombre;
+	this->edad = edad;
+	this->salario = salario;
+	this->numEmpleados = numEmpleados;
+	this->numOficina = numOficina;
 	
 	}
 	

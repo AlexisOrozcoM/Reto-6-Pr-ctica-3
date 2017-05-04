@@ -12,7 +12,7 @@ class EmpleadoOf{
 		string descripcionLab;
 		
 	public:
-		EmpleadoOf(string nombreJefeIn, string descripcionLabIn);
+		EmpleadoOf(string nombreJefe, string descripcionLab);
 		~EmpleadoOf();
 		
 		string getNombreJefe();
