@@ -1,5 +1,8 @@
+
 #ifndef EMPLEADO_H
 #define EMPLEADO_H
+
+
 #include <string>
 
 using std::string;
@@ -8,24 +11,24 @@ using std::string;
 class Empleado{
 	
 	protected:
-		string nombre;
-		int edad;
-		double salario;
-		
+	
+	string nombre;
+	int edad;
+	int salario;
+	
 	public:
-		Empleado(string nombre, int edad, double salario);
-		~Empleado();
-		
-		string getNombre();
-		int getEdad();
-		double getSalario();
-		
-		/*
-		void setNombre(string nombre);
-		void setEdad(int edad);
-		void setSalario(double salario);
-		*/	
+	
+	Empleado(string nombreIn, int edadIn, int salarioIn);
+	
+	string getNombre();
+	int getEdad();
+	int getSalario();
+	
+	void setNombre(string nombreIn);
+	void setEdad(int edadIn);
+	void setSalario(int salarioIn);
+	
+	~Empleado();
 
 };
-
 #endif
